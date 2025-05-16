@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras | Tienda de Camisetas</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logos/logo-tienda.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="carrito.html" class="active">Carrito 🛒 (<span id="contador">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="carrito-container">
+        <h1>Tu Carrito</h1>
+        
+        <div class="items-carrito" id="items-carrito">
+            <!-- Productos se añaden dinámicamente con JS -->
+            <p class="carrito-vacio">Tu carrito está vacío</p>
+        </div>
+
+        <div class="carrito-total">
+            <h3>Total: $<span id="total">0.00</span></h3>
+            <button class="btn-pagar" id="btn-pagar">Proceder al Pago</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Camisetas</p>
+    </footer>
+
+    <script src="./assets/js/carrito.js"></script>
+</body>
+</html>

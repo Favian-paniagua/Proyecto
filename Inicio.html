@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camisetas de Fútbol - Tienda Online</title>
-    <link rel="stylesheet" href="InicioCS.css">
+    <link rel="stylesheet" href="assets\css\InicioCS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     
-    <section class="hero">
-      <header>
-        <div class="container">
+  <section class="hero">
+    <header>
+      <div class="container">
+        <div class="titul"> <!-- este div es donde estan el titulo y algunos links -->
           <h1>Camisetas de Fútbol Vintage</h1>
             <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Camisetas de Clubes</a></li>
-                    <li><a href="#">Selecciones Nacionales</a></li>
-                </ul>
+              <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Camisetas de Clubes</a></li>
+              <li><a href="#">Selecciones Nacionales</a></li>
+              </ul>
             </nav>
         </div>
+      </div> <!-- Aqui es donde esta la banda transparente -->
     </header>
         <div class="hero-content">
+          <img src="assets/productos/img/riquelme.jpg" class="lgo">
           <h2>TIENDA DE CAMISETAS DE FUTBOL VINTAGE</h2>
           <a href="Tienda.html" class="btn1">COMPRA AHORA</a>
           <a href="#" class="btn">SOBRE NOSOTROS</a>
         </div>
-    </section>
+                 <!-- Barra de búsqueda añadida aquí -->
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar camisetas..." class="search-input">
+            <button class="search-button">
+                <i class="fas fa-search"></i> <!-- Ícono opcional -->
+            </button>
+        </div>
+  </section>
 
     <section class="pt">
       <div class="gtp">
-        <img src="milan.jfif" class="imgbogo">
+        <img src="assets/productos/img/milan.jfif" class="imgbogo">
         <h3>RECIENTEMENTE AGREGADO:</h3>
         <a href="#">
           <button class="bogo">NUEVA GOTA</button>
@@ -40,21 +51,21 @@
     <section class="services">
       <div class="services-container">
         <div class="service-card">
-          <img src="benzema.jpg">
+          <img src="assets\productos\img\benzema.jpg">
             <h4>CAMISETAS DE SELECCIONES</h4>
           <a href="https://www.youtube.com" class="btnMuestra">
             <button class="button">COMPRA AHORA</button>
           </a>
         </div>
         <div class="service-card">
-          <img src="ronal.jpg">
+          <img src="assets/productos/img/ronal.jpg">
             <h4>CAMISETAS DE CLUBES</h4>
           <a href="https://www.twitch.tv" class="btnMuestra"></a>
             <button class="button">COMPRA AHORA</button>
           </a>
         </div>
         <div class="service-card">
-          <img src="palermo.jpg">
+          <img src="assets/productos/img/palermo.jpg">
             <h4>CAMISETAS DE CLUBES</h4>
           <a href="#" class="btnMuestra">
             <button class="button">COMPRA AHORA</button>
@@ -64,8 +75,8 @@
     </section>
     <section>
       <div class="fred">
-        <img src="cespe.jpg" class="imgfred">
-          <h5>"Estimados clientes, bienvenidos a nuestro sitio. Esperamos que encuentren la camiseta de fútbol que están buscando. Todos nuestros artículos son 100% originales. ¡Nuestra pasión es el FÚTBOL! ¡Le traemos al presente algunas joyas vintage!"
+        <img src="assets/productos/img/cespe.jpg" class="imgfred">
+          <h5 class="fred-tex">"Estimados clientes, bienvenidos a nuestro sitio. Esperamos que encuentren la camiseta de fútbol que están buscando. Todos nuestros artículos son 100% originales. ¡Nuestra pasión es el FÚTBOL! ¡Le traemos al presente algunas joyas vintage!"
             -Alex-</h5>
       </div>
     </section>
